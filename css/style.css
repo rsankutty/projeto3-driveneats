@@ -91,7 +91,7 @@ h3{
 }
 
 .finalizar_pedido{
-  background-color: red;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,4 +100,22 @@ h3{
   position: fixed;
   bottom: 0px;
   left: 0px;
+}
+
+button{
+  width: 364px;
+  height: 61px;
+  border-radius: 50px;
+  background-color: #CBCBCB;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button_text{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  width: 190px;
 }
