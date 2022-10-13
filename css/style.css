@@ -65,6 +65,17 @@ h2{
   border: 5px solid white;
   position: relative;
 }
+
+#opcao_img{
+  width: 144px;
+  height: 87px;
+  border-radius: 4px;
+}
+
+#opcao_img2{
+  height: 87px;
+  border-radius: 4px;
+}
 .aux{
   width: 172px;
 }
