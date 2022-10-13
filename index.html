@@ -18,6 +18,9 @@
     <h2>Primeiro, seu prato</h2>
     <div class="container_prato">
       <div id="prato1" class="opcao_prato" onclick="selectoption1()">
+        <div id="p1" class="check">
+          <img src="images/Vector.svg">
+        </div>
         <img src="images/frango_yin_yang 1.svg" >
         <div class="aux"></div>
         <div class="legenda">
@@ -27,6 +30,9 @@
         </div>
       </div>
       <div id="prato2" class="opcao_prato" onclick="selectoption2()">
+        <div id="p2" class="check">
+          <img src="images/Vector.svg">
+        </div>
         <img src="images/frango_yin_yang 1.svg" >
         <div class="aux"></div>
         <div class="legenda">
@@ -36,6 +42,9 @@
         </div>
       </div>
       <div id="prato3" class="opcao_prato" onclick="selectoption3()">
+        <div id="p3" class="check">
+          <img src="images/Vector.svg">
+        </div>
         <img src="images/frango_yin_yang 1.svg" >
         <div class="aux"></div>
         <div class="legenda">
@@ -45,6 +54,9 @@
         </div>
       </div>
       <div id="prato4" class="opcao_prato" onclick="selectoption4()">
+        <div id="p4" class="check">
+          <img src="images/Vector.svg">
+        </div>
         <img src="images/frango_yin_yang 1.svg" >
         <div class="aux"></div>
         <div class="legenda">
@@ -59,6 +71,9 @@
   <h2>Agora, sua bebida</h2>
   <div class="container_prato">
     <div id="bebida1" class="opcao_prato" onclick="selectbebida1()">
+      <div id="b1" class="check">
+        <img src="images/Vector.svg">
+      </div>
       <img src="images/coquinha_gelada 1.svg" >
       <div class="aux"></div>
       <div class="legenda">
@@ -68,6 +83,9 @@
       </div>
     </div>
     <div id="bebida2" class="opcao_prato" onclick="selectbebida2()">
+      <div id="b2" class="check">
+        <img src="images/Vector.svg">
+      </div>
       <img src="images/coquinha_gelada 1.svg" >
       <div class="aux"></div>
       <div class="legenda">
@@ -77,6 +95,9 @@
       </div>
     </div>
     <div id="bebida3" class="opcao_prato" onclick="selectbebida3()">
+      <div id="b3" class="check">
+        <img src="images/Vector.svg">
+      </div>
       <img src="images/coquinha_gelada 1.svg" >
       <div class="aux"></div>
       <div class="legenda">
@@ -86,6 +107,9 @@
       </div>
     </div>
     <div id="bebida4" class="opcao_prato" onclick="selectbebida4()">
+      <div id="b4" class="check">
+        <img src="images/Vector.svg">
+      </div>
       <img src="images/coquinha_gelada 1.svg" >
       <div class="aux"></div>
       <div class="legenda">
@@ -100,6 +124,9 @@
   <h2>Por fim, sua sobremesa</h2>
   <div class="container_prato">
     <div id="sobremesa1" class="opcao_prato" onclick="selectsobremesa1()">
+      <div id="s1" class="check">
+        <img src="images/Vector.svg">
+      </div>
       <img src="images/pudim 1.svg" >
       <div class="aux"></div>
       <div class="legenda">
@@ -109,6 +136,9 @@
       </div>
     </div>
     <div id="sobremesa2" class="opcao_prato" onclick="selectsobremesa2()">
+      <div id="s2" class="check">
+        <img src="images/Vector.svg">
+      </div>
       <img src="images/pudim 1.svg" >
       <div class="aux"></div>
       <div class="legenda">
@@ -118,6 +148,9 @@
       </div>
     </div>
     <div id="sobremesa3" class="opcao_prato" onclick="selectsobremesa3()">
+      <div id="s3" class="check">
+        <img src="images/Vector.svg">
+      </div>
       <img src="images/pudim 1.svg" >
       <div class="aux"></div>
       <div class="legenda">
@@ -127,6 +160,9 @@
       </div>
     </div>
     <div id="sobremesa4" class="opcao_prato" onclick="selectsobremesa4()">
+      <div id="s4" class="check">
+        <img src="images/Vector.svg">
+      </div>
       <img src="images/pudim 1.svg" >
       <div class="aux"></div>
       <div class="legenda">
@@ -138,8 +174,8 @@
   </div>
 </div>
 <div class="finalizar_pedido">
-  <button id="fecharPedido">
-    <div class="button_text">
+  <button id="fecharPedido" onclick="fecharPedido()">
+    <div id="button_text" class="button_text">
       Selecione os 3 itens para fechar o pedido
     </div>
   </button>
