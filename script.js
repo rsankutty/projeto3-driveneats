@@ -67,11 +67,12 @@ function fecharPedido(){
     preco1_num=ChangeToNumber(preco1);
     preco2_num=ChangeToNumber(preco2);
     preco3_num=ChangeToNumber(preco3);
-    mensagem = `Olá, gostaria de fazer o pedido:
-      - Prato: `+prato+`
-      - Bebida: `+bebida+`
-      - Sobremesa: `+sobremesa+`
-      Total: R$ `+(preco1_num+preco2_num+preco3_num).toFixed(2);
+    mensagem = 
+    `Olá, gostaria de fazer o pedido:
+    - Prato: ${prato}
+    - Bebida: ${bebida}
+    - Sobremesa: ${sobremesa}
+    Total: R$ ${(preco1_num+preco2_num+preco3_num).toFixed(2)}`;
     mensagem = window.encodeURIComponent(mensagem);
     window.open("https://wa.me/?text="+mensagem);
   }
